@@ -357,7 +357,7 @@ public class Octree<T extends Point3D>{
         this.depth = depth;
     }
 
-    public void setPoints(T[] points) {
+    public void setPoints(T... points) {
         
         double minPointX = 0, minPointY = 0, minPointZ = 0;
         double maxPointX = 0, maxPointY = 0, maxPointZ = 0;
